@@ -1,0 +1,12 @@
+name: packserve
+
+services:
+  nginx:
+    build: .
+    # Don't want to build it yourself? 
+    # Comment out the build line and uncomment the below instead.
+    # image: ghcr.io/kankerdev/packserve:latest
+    ports:
+      - 8080:80/tcp
+    volumes:
+      - ./example-mount/:/mnt/:ro

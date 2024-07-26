@@ -1,0 +1,13 @@
+name = "example"
+author = "spectrapulse"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "45ae2186226d183883f7dad38e586e99d1848090d5953fed0f37e5d549f40569"
+
+[versions]
+fabric = "0.16.0"
+minecraft = "1.20.1"
